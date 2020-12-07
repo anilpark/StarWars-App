@@ -1,8 +1,16 @@
 import './Planets.css';
 
 import Grid from '../Grid';
+import {useDispatch} from "react-redux";
+import {getPlanets} from "../../redux/actions/planetsActions";
+import {useEffect} from "react";
 
 function Planets() {
+
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(getPlanets())
+  }, [dispatch])
 
   const data = {
     header: [
