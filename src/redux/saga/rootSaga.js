@@ -1,8 +1,11 @@
 import { all } from 'redux-saga/effects'
-import planetsSaga from "./planetsSaga";
+import {planetsSaga, planetSaga, filmsSaga, residentsSaga} from "./planetsSaga";
 
 export default function* rootSaga() {
   yield all([
-    planetsSaga()
+    planetsSaga(),
+    planetSaga(),
+    filmsSaga(),
+    residentsSaga()
   ])
 }

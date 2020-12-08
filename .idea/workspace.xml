@@ -2,23 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab54d284-8c19-453c-b5dc-ad2129d99412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/planetsApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/planetsActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/planetsReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/saga/planetsSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/saga/rootSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/types/planetTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Films/Films.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Page404/Page404.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanetDetails/PlanetDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanetForm/PlanetForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanetForm/PlanetForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Planets/Planets.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Residents/Residents.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/selectors/planets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Planets/Planets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planets/Planets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/planetsApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/planetsApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Grid/Grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grid/Grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Planets/Planets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/planetsActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/planetsActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/planetsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/planetsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/planetsSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/saga/planetsSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/rootSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/saga/rootSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types/planetTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types/planetTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +57,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,10 +73,39 @@
       <option name="presentableId" value="Default" />
       <updated>1607099810387</updated>
       <workItem from="1607099811955" duration="6582000" />
+      <workItem from="1607332140703" duration="29014000" />
+      <workItem from="1607372460288" duration="343000" />
+      <workItem from="1607420391966" duration="2549000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1417" height="209" key="GridCell.Tab.0.bottom" timestamp="1607422493355">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1417" height="209" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1607422493355" />
+    <state width="1417" height="209" key="GridCell.Tab.0.center" timestamp="1607422493354">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1417" height="209" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1607422493354" />
+    <state width="1417" height="209" key="GridCell.Tab.0.left" timestamp="1607422493351">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1417" height="209" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1607422493351" />
+    <state width="1417" height="209" key="GridCell.Tab.0.right" timestamp="1607422493354">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1417" height="209" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1607422493354" />
+    <state x="228" y="71" key="SettingsEditor" timestamp="1607422439813">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state x="228" y="71" key="SettingsEditor/0.25.1440.820@0.25.1440.820" timestamp="1607422439813" />
+    <state x="371" y="80" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607346994451">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state x="371" y="80" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1440.820@0.25.1440.820" timestamp="1607346994451" />
   </component>
 </project>
